@@ -2,17 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+icon: 
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is a website I made to put some personal projects I've made, this site was made using GitHub pages and Jekyll.
 
-You can find the source code for Minima at GitHub:
+Here's where you can find the code for Jekyll and the Minima theme:
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
 
 [jekyll-organization]: https://github.com/jekyll
