@@ -12,7 +12,7 @@ Both of these texture packs are for the **PC** version of Geometry Dash and the 
 **Christeamer Pack V1 (OLD/BAD)**
 [Download Link](https://drive.google.com/drive/folders/1cFMP8LUsRA4Ehnn7fXj1GMe7dnhaT-AI?usp=sharing)
 [![CPackV1Showcase](https://i9.ytimg.com/vi/0f-TwTV0p6A/maxresdefault.jpg?time=1652718000000&sqp=CLDziZQG&rs=AOn4CLCwvth8zShZDDkQdG6q8zSTHHo7DA)](https://www.youtube.com/watch?v=0f-TwTV0p6A&ab "Showcase of the old pack!")
-*(Click to watch on YouTube)*
+*(Click to watch the showcase video on YouTube)*
 
 **Christeamer Pack V2 (Slightly Unfinished)**
 [Download Link](https://drive.google.com/drive/folders/1Br1SbnGqJ_E5FeHCtPLc6fceJsrUwjAU?usp=sharing)
@@ -36,7 +36,7 @@ This is the game sheet with most of the textures on it as this texture pack does
 
 4: After unzipping the texture pack using the **Extract to "FILENAME\"** option you will be left with a new folder containing the texture pack. Navigate to whatever directory the pack files are in (you'll know you're there when you see .png and .plist files!!). Now, open **Steam** and right click on Geometry Dash in your **Steam library**. It will open a small menu, now hover over the manage option and click on the option to **"Browse Local Files"**, it will open a file explorer to wherever you have Geometry Dash installed.
 ![Steam Example](https://i.imgur.com/eUjWEvD.png "How to get to GD directory")
-*Example of how to get to the Geometry Dash directory*
+*An example of how to get to the Geometry Dash directory*
 
 5: Now what you're in the Geometry Dash directory there will be a folder called **"Resources"** containing all of the textures for the game. The only thing left to do is to open the  **"Resources"** folder and copy all of the files from the folder you unzipped into the **"Resources"** folder.
 
