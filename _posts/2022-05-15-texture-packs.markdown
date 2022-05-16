@@ -38,7 +38,7 @@ This is the game sheet with most of the textures on it as this texture pack does
 ![Steam Example](https://i.imgur.com/eUjWEvD.png "How to get to GD directory")
 *Example of how to get to the Geometry Dash directory*
 
-5: Now what you're in the Geometry Dash directory there will be a folder called **"Resources"** containing all of the textures for the game. The only thing left to do is to open the  **"Resources"** folder and copy all of the files from the folder you unzipped into the **"Resources** folder.
+5: Now what you're in the Geometry Dash directory there will be a folder called **"Resources"** containing all of the textures for the game. The only thing left to do is to open the  **"Resources"** folder and copy all of the files from the folder you unzipped into the **"Resources"** folder.
 
 6: You're done! You should now have a texture pack installed.
 
