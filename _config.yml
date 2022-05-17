@@ -29,7 +29,6 @@ github_username:  Tristeamer
 youtube_username: Tristeamer
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
