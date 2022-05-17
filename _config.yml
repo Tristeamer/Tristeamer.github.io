@@ -58,3 +58,9 @@ minima:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+minima:
+  social_links:
+    twitter: Tristeamerowo  
+    github: Tristeamer
+
