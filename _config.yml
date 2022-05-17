@@ -33,10 +33,11 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote_theme: jekyll/minima
-
 minima:
   skin: dark
+
+remote_theme: jekyll/minima
+
 
 
 
