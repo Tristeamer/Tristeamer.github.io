@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote_theme: BDHU/minimalist
+remote_theme: zivong/ockham
 
 # Exclude from processing.
 # The following items will not be processed, by default.
