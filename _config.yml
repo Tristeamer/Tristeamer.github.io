@@ -33,6 +33,8 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+theme: minima
+
 minima:
   skin: dark
 
