@@ -12,7 +12,6 @@ Both of these texture packs are for the **PC** version of Geometry Dash and the 
 **Christeamer Pack V1 (OLD/BAD)**
 [Download Link](https://drive.google.com/drive/folders/1cFMP8LUsRA4Ehnn7fXj1GMe7dnhaT-AI?usp=sharing)
 [![CPackV1Showcase](https://i.imgur.com/Rx66uYC.jpg)](https://www.youtube.com/watch?v=0f-TwTV0p6A&ab "Showcase of the old pack!")
-{% youtube "https://www.youtube.com/watch?v=0f-TwTV0p6A&ab" %}
 *(Click to watch the showcase video on YouTube)*
 
 **Christeamer Pack V2 (Slightly Unfinished)**
