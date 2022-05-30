@@ -74,3 +74,7 @@ minima:
     youtube: Tristeamer
 
 show_excerpts: true
+
+header_pages:
+  - about.markdown
+  - test.markdown
