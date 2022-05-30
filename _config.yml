@@ -44,6 +44,7 @@ minima:
 minima:
   skin: dark
 
+skin: dark
 
 
 
@@ -75,6 +76,3 @@ minima:
 
 show_excerpts: true
 
-header_pages:
-  - about.markdown
-  - test.markdown
