@@ -47,5 +47,7 @@ Then hope it works.
 
 (Also probably important to note that this was made as more of a basic educational project to try writing a shell script)
 
+### Last updated: 05/17/22
+
 
 
