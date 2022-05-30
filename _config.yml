@@ -28,6 +28,8 @@ twitter_username: Tristeamerowo
 github_username:  Tristeamer
 youtube_username: Tristeamer
 
+minima:
+  skin: dark
 # Build settings
 
 plugins:
@@ -35,6 +37,9 @@ plugins:
   - jekyll-remote-theme
 
 remote_theme: jekyll/minima
+
+minima:
+  skin: dark
 
 minima:
   skin: dark
