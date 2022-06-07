@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Geometry Dash
+title: GD
 permalink: /gd/
 ---
 
