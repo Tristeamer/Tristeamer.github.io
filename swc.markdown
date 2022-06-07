@@ -15,15 +15,10 @@ Argueably the most popular thing I've made just because of how my friends watch 
 
 ### So this is the dedicated page for Skiing With Christeamer™
 
-I'll put this page in **ascending** chronological order so that the further down it goes the older (and lower in quality):
+I'll put this page in **ascending** chronological order so that the further down it goes the older (and lower in quality).
 ## Season 3: Unnammed (so far)
 Currently the only Season 3 video is just the trailer for it, editing on it has been started but it's not nearly done.
 
-[![swcs3t](https://i.imgur.com/OmuCV2G.jpg)](https://youtu.be/h8uz0BFf-X8 "Season 3 Trailer :)")
-<p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/OmuCV2G.jpg">
-</p>
-
-[Watch Here](https://youtu.be/h8uz0BFf-X8)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h8uz0BFf-X8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Personally I'd say that it's my favourite video that I've edited just because I really tried to make it look somewhat professional.
