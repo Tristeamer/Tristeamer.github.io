@@ -15,4 +15,6 @@ Argueably the most popular thing I've made just because of how my friends watch 
 
 ### So this is the dedicated page for Skiing With Christeamer™
 
+I'll put this page in **ascending** chronological order so that the further down it goes the older (and lower in quality):
 
+## Season 3:
