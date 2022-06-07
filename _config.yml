@@ -59,7 +59,7 @@ skin: dark
 # exclude:
  - .sass-cache/
 #   - .jekyll-cache/
- - gemfiles/
+#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
