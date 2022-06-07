@@ -18,6 +18,9 @@ Argueably the most popular thing I've made just because of how my friends watch 
 I'll put this page in **ascending** chronological order so that the further down it goes the older (and lower in quality):
 ## Season 3:
 Currently the only Season 3 video is just the trailer for it, editing on it has been started but it's not nearly done.
+
 [![swcs3t](https://i.imgur.com/OmuCV2G.jpg)](https://youtu.be/h8uz0BFf-X8 "Season 3 Trailer :)")
+
 *Click to watch on YouTube*
+
 Personally I'd say that it's my favourite video that I've edited just because I really tried to make it look somewhat professional.
