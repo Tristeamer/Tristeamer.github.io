@@ -19,7 +19,11 @@ I'll put this page in **ascending** chronological order so that the further down
 ## Season 3: Unnammed (so far)
 Currently the only Season 3 video is just the trailer for it, editing on it has been started but it's not nearly done.
 
-[![swcs3t](https://i.imgur.com/OmuCV2G.jpg)](https://youtu.be/h8uz0BFf-X8 "Season 3 Trailer :)")*This took forever to make because I didn't really know how to make the effects in the video untill I made it.*
-*Click to watch on YouTube*
+[![swcs3t](https://i.imgur.com/OmuCV2G.jpg)](https://youtu.be/h8uz0BFf-X8 "Season 3 Trailer :)")
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/OmuCV2G.jpg">
+</p>
+
+[Watch Here](https://youtu.be/h8uz0BFf-X8)
 
 Personally I'd say that it's my favourite video that I've edited just because I really tried to make it look somewhat professional.
