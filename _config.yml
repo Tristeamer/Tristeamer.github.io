@@ -30,7 +30,7 @@ youtube_username: Tristeamer
 
 # Build settings
 
-theme: minima
+theme: jekyll/minima
 
 plugins:
   - jekyll-feed
