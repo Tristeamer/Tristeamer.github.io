@@ -37,7 +37,6 @@ plugins:
 remote_theme: jekyll/minima
 
 minima:
-  skin: classic
   skin: dark
 
 
