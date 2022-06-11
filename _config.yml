@@ -30,11 +30,13 @@ youtube_username: Tristeamer
 
 # Build settings
 
+theme: midnight
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
 
 
 # Exclude from processing.
@@ -57,13 +59,13 @@ remote_theme: jekyll/minima
 #   - vendor/gems/
 #   - vendor/ruby/
 
-minima:
-  skin: dark
-  date_format: "%b %-d, %Y"
-  social_links:
-    twitter: Tristeamerowo  
-    github: Tristeamer
-    youtube: Tristeamer
+# minima:
+#  skin: dark
+#  date_format: "%b %-d, %Y"
+#  social_links:
+#    twitter: Tristeamerowo  
+#    github: Tristeamer
+#    youtube: Tristeamer
 
-show_excerpts: true
+# show_excerpts: true
 
