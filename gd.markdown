@@ -4,4 +4,6 @@ title: GD
 permalink: /gd/
 ---
 
-This is a category for Geometry Dash
+This is just a page to keep track of all of the GD posts on this page. So that being said, here's all the current GD posts:
+
+##
