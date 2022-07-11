@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /SGDemons/
-published: false
+exclude: true
 ---
 
 
