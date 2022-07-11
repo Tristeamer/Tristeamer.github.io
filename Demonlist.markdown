@@ -4,7 +4,9 @@ permalink: /SGDemons/
 title: false
 ---
 <br>
-
+<p align="center">
+ #Sigma Grindset Demonlist
+</p>
 ## **Mainlist**
 
 
