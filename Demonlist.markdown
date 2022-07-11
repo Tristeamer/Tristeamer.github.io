@@ -3,6 +3,8 @@ layout: page
 permalink: /SGDemons/
 title: false
 ---
+# **Sigma Grindset Demonlist**
+
 
 # **Mainlist**
 
