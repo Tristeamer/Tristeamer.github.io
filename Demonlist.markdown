@@ -3,11 +3,8 @@ layout: page
 permalink: /SGDemons/
 title: false
 ---
-<br>
-<p align="center">
- #Sigma Grindset Demonlist
-</p>
-## **Mainlist**
+
+# **Mainlist**
 
 
 ### 1. **Calculator Core** - *Walroose*
