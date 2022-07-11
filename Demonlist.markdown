@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Sigma Grindset Demonlist
+title: 
 permalink: /SGDemons/
 ---
 
-### **Mainlist**
+## **Mainlist**
 
 
-1. Calculator Core
+#### 1. Calculator Core - *verified by Fenix1022*
