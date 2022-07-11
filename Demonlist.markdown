@@ -3,7 +3,7 @@ layout: page
 permalink: /SGDemons/
 title: false
 ---
-![Placeholder](https://media.discordapp.net/attachments/952313238387822612/988476085710766120/20220620_120739.jpg?width=1440&height=294 "placeholder header")
+<br>
 
 ## **Mainlist**
 
