@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sigma Grindset Demonlist
-permalink: /gd/
+permalink: /SGDemons/
 ---
 
 ### **Mainlist**
