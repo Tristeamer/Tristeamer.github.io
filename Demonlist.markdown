@@ -1,8 +1,9 @@
 ---
 layout: page
 permalink: /SGDemons/
+published: false
 ---
-# *placeholder for a header pretend theres something here*
+
 
 ## **Mainlist**
 
