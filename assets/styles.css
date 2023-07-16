@@ -1,61 +1,22 @@
-.header {
-  padding: 2px 1px 1px 2px;
-  text-align: none;
-  padding-left: 10px;
-  background: rgb(27, 27, 27);
-  color: rgb(170, 0, 212);
-  font-size: 12px;
-  border-bottom: 3px solid rgb(163, 51, 255);
-  box-shadow: 2px 2px 20px #1b1b1b;
+/*Site style stuff*/
 
-}
-
-.footer {
-  padding: 2px 1px 1px 2px;
-  text-align: none;
-  padding-left: 10px;
-  background: rgb(27, 27, 27);
-  color: rgb(170, 0, 212);
-  font-size: 12px;
-  border-top: 3px solid rgb(163, 51, 255);
-  box-shadow: 2px 2px 20px #1b1b1b;
+@font-face {
+    font-family: 'more_perfect_dos_vgaregular';
+    src: url('font/moreperfectdosvga-webfont.woff2') format('woff2'),
+         url('font/moreperfectdosvga-webfont.woff') format('woff'),
+         url('font/MorePerfectDOSVGA.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-    background-color: rgb(44, 44, 44);
-    margin: 0;
-  }
-  h1 {
-    color: rgb(221, 171, 255);
-    text-shadow: 2px 2px rgb(199, 72, 188);
-    font-family: monospace;
-    font-weight:normal;
-    font-style:normal;
-  }
-  p {
-    color: rgb(212, 212, 212);
-    font-size: 20px;
-    padding-left: 10px;
-    font-family: monospace;
-    font-weight:normal;
-    font-style:normal;
-  }
-  h2 {
-    color:rgb(219, 255, 60);
-    font-family: monospace;
-    font-weight:normal;
-    font-style:normal;
-    margin-right: 150px;
-    margin-left: 150px;
+    background-color: rgb(15,15,15);
+}
 
-  }
-  
-  @font-face {
-    font-family: "monospace";
-    src: url("/fonts/CodeSaver-Regular.otf") format('woff'),
-         url("/fonts/CodeSaver-Regular.otf") format('woff2'),
-         url("/fonts/CodeSaver-Regular.otf") format('embedded-opentype'),
-         url("/fonts/CodeSaver-Regular.otf") format('truetype'),
-         url("/fonts/CodeSaver-Regular.otf") format('opentype'),
-         url("/fonts/CodeSaver-Regular.otf") format('svg'); 
-  }
+p1 {
+    color: rgb(195, 196, 199);
+    text-shadow : 0.25px 0.25px 20px rgb(255,255,255);
+    font-family: 'more_perfect_dos_vgaregular';
+    font-weight: normal;
+    font-style: normal;
+}
