@@ -1,0 +1,235 @@
+.header {
+    padding: 2px 1px 1px 2px;
+    text-align: none;
+    padding-left: 10px;
+    color: rgb(212, 0, 71);
+    font-size: 12px;
+    width: 100%;
+    height:auto;
+    position:fixed;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 20px #1b1b1b;
+    overflow: visible;
+    background-image: linear-gradient(rgb(27, 27, 27),rgba(27, 27, 27, 0.753));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  
+}
+
+.header div {
+    width:auto;
+    padding-left: 5%;
+    padding-right: 6%;
+    float:left;
+}
+
+.sider {
+    vertical-align: middle;
+    width: 20%;
+    text-wrap: pretty;
+    float:right;
+    border-radius: 10px;
+    margin-right: 3.5%;
+    background-image: linear-gradient(rgba(78, 78, 78, 0.514),rgba(48, 48, 48, 0.507));
+    color: rgb(48, 48, 48);
+    box-shadow: 2px 2px 15px #1b1b1b;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0%;
+
+}
+  
+.footer {
+    padding: 2px 1px 1px 2px;
+    text-align: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: auto;
+    padding-left: 10px;
+    background: rgba(48, 48, 48, 0.493);
+    color: rgb(48, 48, 48);
+    font-size: 12px;
+    box-shadow: 2px 2px 6px #252525;
+}
+
+.levelplacedfull {
+
+    padding: 2px 1px 1px 2px;
+    width: 70%;
+    margin-left: 3.5%;
+    background-image: linear-gradient(rgba(78, 78, 78, 0.514),rgba(48, 48, 48, 0.507));
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #1b1b1b;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.infodiv {
+    padding: 2px 1px 1px 2px;
+    width: 20%;
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: center;
+    float:left;
+}
+
+.pointsdiv {
+    padding: 2px 1px 1px 2px;
+    width: auto;
+    text-align: center;
+    float:left;
+}
+
+.pointsdivextended {
+    padding: 2px 1px 1px 2px;
+    width: auto;
+    text-align: center;
+    padding-left: 15.4%;
+    float:left;
+}
+
+table {
+
+    text-align: center;
+    margin-left:15%;
+
+}
+
+tr {
+    font-size: 160%;
+    color:white;
+    padding: 2%;
+
+}
+
+th {
+
+    font-family: modern-bold;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+td {
+    font-family: modern-light;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+body {
+    background-image: repeating-linear-gradient(rgb(35, 51, 32),rgb(175, 255, 159), rgb(255, 138, 249),rgb(44, 24, 43));
+    margin: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: modern-bold;
+    font-size: 168%;
+    font-weight:normal;
+    font-style:normal;
+    padding:10px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: modern-light;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 150%;
+    padding: 12px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: modern-bold;
+    font-size: 125%;
+    text-align: center;
+    font-weight:normal;
+    font-style:normal;
+}
+
+h5 {
+    color: rgb(255, 255, 255);
+    font-family: modern-light;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+}
+
+p1 {
+    color: rgb(212, 212, 212);
+    font-size: 20px;
+    font-family: monospace;
+    font-weight:normal;
+    font-style:normal;
+}
+
+p2 {
+    color: rgb(138, 138, 138);
+    font-size: 10px;
+    font-family: monospace-light;
+    font-weight:normal;
+    font-style:normal;
+}
+
+p3 {
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 280%;
+    padding-top: 2px;
+    font-family: modern-bold;
+
+}
+
+p4 {
+    color: rgb(255, 255, 255);
+    font-size: 125%;
+    padding-bottom: 2px;
+    font-family: modern-light;
+}
+
+    
+a {
+    color: inherit
+}
+
+    
+@font-face {
+    font-family: "monospace";
+    src: url("fonts/SCPbold.ttf") format('truetype'),
+}
+
+@font-face {
+    font-family: "monospace-bold";
+    src: url("fonts/SCPblack.ttf") format("truetype")
+
+}
+@font-face {
+    font-family: "monospace-light";
+    src: url("fonts/SCPsemibold.ttf") format("truetype")
+
+}
+@font-face {
+    font-family: "retro";
+    src: url("fonts/MorePerfectDOSVGA.ttf") format("truetype")
+}
+@font-face {
+    font-family: "modern-bold";
+    src: url("fonts/Nexa-Heavy.ttf") format("truetype")    
+
+}
+@font-face {
+    font-family: "modern-light";
+    src: url("fonts/Nexa-ExtraLight.ttf") format("truetype")
+
+}
+@font-face {
+    font-family: "fortnite";
+    src: url("fonts/fortnite.otf") format("opentype")
+
+}

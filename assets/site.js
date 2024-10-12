@@ -1,7 +1,9 @@
 //site scripting stuff
 
 var x = 0;
-var sitel1 = "Welcome to my site!! :) (this page is still a work in progress but that's probably pretty evident lmao)";
+var y = 0;
+var sitel1 = "This site isn't really finished but lowkey I have no idea what to even put here so its empty asf <3";
+var sitel2 = "test";
 var sitivt = 5;
 
 function site() {
@@ -11,6 +13,4 @@ function site() {
     setTimeout(site, sitivt);
   }
 }
-
-
 setTimeout(() => {site();}, 3300);

@@ -13,6 +13,18 @@ body {
     background-color: rgb(15,15,15);
 }
 
+header {
+
+  background-color:rgb(255, 255, 255);
+
+}
+
+a {
+
+  color: rgb(53, 55, 90)
+
+}
+
 p1 {
     color: rgb(255, 255, 255);
     text-shadow : 0.25px 0.25px 20px rgb(255,255,255);
@@ -21,6 +33,22 @@ p1 {
     font-style: normal;
     font-size: 130%;
 }
+
+p2 {
+  color: rgb(87, 87, 87);
+  text-shadow : 0.25px 0.25px 20px rgb(0, 0, 0);
+  font-family: 'more_perfect_dos_vgaregular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 130%;
+}
+
+p3 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 130%;
+}
+
 
 /* credit: http://aleclownes.com/2017/02/01/crt-display.html */
 
