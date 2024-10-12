@@ -1,27 +1,52 @@
 # some functions needed for the page generator to declutter the main file a bit
 # also some variable
 
-# definte array for rows in the .csv file
-l_content = []
+import datetime
 
-def parse_csv(path):
-# get lines
-    with open(path, "r") as csv:
-        for line in csv:
+# definte array for rows in the .csv files
+l_content = []
+r_content = []
+date = datetime.date.today()
+
+def parse_csv(lvlpath, recpath):
+
+    TRISTEAMER = 0
+    WILLO = 0
+    JEREMY_CLARKSON = 0
+    WAHFFLE = 0
+    MRLIBRA = 0
+    MIQUEL = 0
+    TRAVISAURUS = 0
+    EVIL = 0
+    MELONZ = 0
+    FENIX = 0
+    FIZZEL = 0
+    CARTER = 0
+    CHRISTEAMER = 0
+    FOODY = 0
+
+# get lines for record .csv file
+    with open(lvlpath, "r") as lvl_csv:
+        for line in lvl_csv:
             l_content.append(line)
+
+# get lines for level .csv file
+    with open(recpath, "r") as rec_csv:
+        for line in rec_csv:
+            r_content.append(line)
 
 # write the start of the index.html file
     with open("index.html", "w") as index:
         index.write("<!DOCTYPE html>\n")
         index.write("<html>\n")
-        index.write("<title>Sigma Grindset Demonlist™</title>\n")
+        index.write("<title>Sigma Grindset Demonlist\u2122</title>\n")
         index.write("<head>\n")
         index.write('  <link rel="stylesheet" href="style/styles.css">\n')
         index.write('</head>\n')
         index.write('<!-- Weird header thing if it works it works-->\n')
         index.write('<div class="header">\n')
         index.write('  <div>\n')
-        index.write('    <h1>[Sigma Grindset Demonlist™]</h1>\n')
+        index.write('    <h1>[Sigma Grindset Demonlist\u2122]</h1>\n')
         index.write('  </div>\n')
         index.write('  <div style="float:right;">\n')
         index.write('    <h2><a href="https://tristeamer.github.io/sgdl/index.html">Mainlist</a>\n')
@@ -29,9 +54,9 @@ def parse_csv(path):
         index.write('        <a href="pages/legacylist.html">Legacy List</a></h2>\n')
         index.write('  </div>\n')
         index.write('</div>\n')
-        index.write("<!-- I'm 99% sure there's a better way to do this -->\n")
+        index.write(r"<!-- I'm 99% sure there's a better way to do this -->"+'\n')
         index.write('<br>\n')
-        index.write('<br>\n')
+        index.write('<br>\n') 
         index.write('<br>\n')
         index.write('<br>\n')
         index.write('<br>\n')
@@ -46,14 +71,31 @@ def parse_csv(path):
         index.write('      <hr style="color:white;">\n')
         index.write('      <h4>Other (kinda important) Stuff:</h4>\n')
         index.write('''      <h5 style="text-align: center;">- <a href="https://pointercrate.com/guidelines/index">Pointercrate's Rules</a></h5>\n''')
-        index.write('      <h5 style="text-align: center;">- <a href="placeholder">Stats Viewer</a></h5>\n')
-        index.write('      <h5 style="text-align: center;">- <a href="placeholder">Submit a record here!</a></h5>\n')
+        index.write('      <h5 style="text-align: center;">- <a href="pages/statsviewer.html">Stats Viewer</a></h5>\n')
+        index.write('      <h5 style="text-align: center;">- <a href="https://forms.gle/jDx28tHq8zhowzF2A">Submit a record here!</a></h5>\n')
         index.write('      <h5 style="text-align: justify; color:rgb(138, 138, 138)">*Note: instead of using the form you can just message me any records on discord instead if you want</h5>\n')
+        index.write('      <hr style="color:white">\n')
+        index.write('      <h4 style="text-align: center;">Last updated: '+str(date)+'</h4>\n')
+        index.write('      <hr style = "color:white">')
+        index.write('      <h4 style="font-family: fortnite; font-size:150%;">Wall of fame:</h4>')
+        index.write('      <img class="wof" src="images/libra in vc.gif" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/jon.png" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/tim.png" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/shroom.gif" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/milan.png" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/sexualfriday.jpg" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/unknown.png" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/empire.png" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/ad.webp" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/caliph.png" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/orbit.gif" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/omori.webp" width="300" height="200" style="margin-left: 10%">')
+        index.write('      <img class="wof" src="images/text.gif" width="300" height="200" style="margin-left: 10%">')
         index.write('  </div>\n')
         index.write('</body>\n')
         index.write('<!-- basic template for demons shown; also clickable for convenience -->\n')
 
-# get data from each row and 
+# get data from each row and format it to be nicer for levels.csv file 
     for i in range(1,151):
         l_content[i] = l_content[i].replace(",,,,,,,,",",")
         if '"' in l_content[i]:
@@ -68,6 +110,8 @@ def parse_csv(path):
         row_content[8] = row_content[8].replace("https://www.youtube.com/watch?v=","https://www.youtube.com/embed/")
 
         row_content[7] = row_content[7].replace("♠", ",")
+
+        rec_content = r_content[i].split(",")
 
         with open("index.html", "a") as index:    
             if i == 75:
@@ -120,7 +164,7 @@ def parse_csv(path):
         with open(pg_fname, "w") as curr_page:
             curr_page.write("<!DOCTYPE html>\n")
             curr_page.write("<html>\n")
-            curr_page.write("<title>#"+str(i)+" - "+row_content[1]+" - Sigma Grindset Demonlist</title>\n")
+            curr_page.write("<title>#"+str(i)+" - "+row_content[1]+" - Sigma Grindset Demonlist\u2122</title>\n")
             curr_page.write("</html>\n")
             curr_page.write("<head>\n")
             curr_page.write('  <link rel="stylesheet" href="style/dlpgss.css">\n')
@@ -128,12 +172,10 @@ def parse_csv(path):
             curr_page.write('<!-- Weird header thing if it works it works-->\n')
             curr_page.write('<div class="header">\n')
             curr_page.write('    <div>\n')
-            curr_page.write('      <h1>[Sigma Grindset Demonlist™]</h1>\n')
+            curr_page.write('      <h1>[Sigma Grindset Demonlist\u2122]</h1>\n')
             curr_page.write('    </div>\n')
             curr_page.write('    <div style="float:right;">\n')
-            curr_page.write('      <h2><a href="https://tristeamer.github.io/sgdl/index.html">Mainlist</a>\n')
-            curr_page.write('          <a href="pages/extendedlist.html">Extended List</a>\n')
-            curr_page.write('          <a href="pages/legacylist.html">Legacy List</a></h2>\n')
+            curr_page.write('      <h2><a href="https://tristeamer.github.io/sgdl/index.html">Return to main page.</a>\n')
             curr_page.write('    </div>\n')
             curr_page.write('</div>\n')
             curr_page.write(r"<!-- I'm 99% sure there's a better way to do this -->\n")
@@ -143,6 +185,7 @@ def parse_csv(path):
             curr_page.write('<br>\n')
             curr_page.write('<br>\n')
             curr_page.write('<br>\n')
+# change page bg color based on where it is on the list
             if i == 1:
                 curr_page.write('<body style="background-image: repeating-linear-gradient(rgb(48, 51, 32),rgb(234, 255, 159), rgb(255, 185, 138),rgb(44, 31, 24));\n')
             if i == 2:
@@ -175,9 +218,11 @@ def parse_csv(path):
             curr_page.write('          <hr style="color:white;">\n')
             curr_page.write('          <h4>Other (kinda important) Stuff:</h4>\n')
             curr_page.write("""          <h5 style="text-align: center;">- <a href="https://pointercrate.com/guidelines/index">Pointercrate's Rules</a></h5>\n""")
-            curr_page.write('          <h5 style="text-align: center;">- <a href="placeholder">Stats Viewer</a></h5>\n')
-            curr_page.write('          <h5 style="text-align: center;">- <a href="placeholder">Submit a record here!</a></h5>\n')
+            curr_page.write('          <h5 style="text-align: center;">- <a href="pages/statsviewer.html">Stats Viewer</a></h5>\n')
+            curr_page.write('          <h5 style="text-align: center;">- <a href="https://forms.gle/jDx28tHq8zhowzF2A">Submit a record here!</a></h5>\n')
             curr_page.write('          <h5 style="text-align: justify; color:rgb(189, 189, 189)">*Note: instead of using the form you can just message me any records on discord instead if you want</h5>\n')
+            curr_page.write('      <hr style="color:white">\n')
+            curr_page.write('      <h4 style="text-align: center;">Last updated: '+str(date)+'</h4>\n')
             curr_page.write('    </div>\n')
             curr_page.write('</body>\n')
             curr_page.write('<!-- actual level placed -->\n')
@@ -192,7 +237,7 @@ def parse_csv(path):
             curr_page.write('<p4>by '+row_content[2]+', verified by '+row_content[3]+'</p4> <br>\n')
             curr_page.write('<p4 style="color: rgb(187, 187, 187); padding-bottom: 2%;">"'+row_content[7]+'"</p4> <br>\n')
             curr_page.write('<hr style="width: 75%; color:white;">\n')
-            curr_page.write(r'<iframe style="box-shadow: 2px 2px 15px #1b1b1b; border-radius: 15px" width="1072" height="603" src="'+row_content[8]+r'?si=P9We5d1GwCnMqau1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>\n')
+            curr_page.write(r'<iframe style="box-shadow: 2px 2px 15px #1b1b1b; border-radius: 15px" width="1072" height="603" src="'+row_content[8]+r'?si=P9We5d1GwCnMqau1&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'+"\n")
             curr_page.write('<hr style="width: 75%; color:white;">\n')
             curr_page.write('<div class="infodiv">\n')
             curr_page.write('  <h4>Game Version:</h4>\n')
@@ -253,11 +298,124 @@ def parse_csv(path):
             curr_page.write('      <th>Proof:    </th>\n')
             curr_page.write('    </tr>\n')
             curr_page.write('<!-- Each new record will follow this template: -->\n')
-            curr_page.write('    <tr>\n')
-            curr_page.write('      <td>PLAYER FLAG</td>\n')
-            curr_page.write('      <td>PROGRESS</td>\n')
-            curr_page.write('      <td><a href="(LINK)">Video</a></td>\n')
-            curr_page.write('    </tr>\n')
+
+            for x in range(1,15):
+                if str(rec_content[x]).replace("\n","") != "":
+                    prog = int(float(str(rec_content[x]).replace("\n",".0")))
+                    rec_content[x] = rec_content[x].replace("\n","")
+                    if x == 1:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Tristeamer</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        TRISTEAMER += points
+                    if x == 2:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Willo</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        WILLO += points
+                    if x == 3:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Jeremy Clarkson</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        JEREMY_CLARKSON += points
+                    if x == 4:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Wahffle</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        WAHFFLE += points
+                    if x == 5:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>MrLibra</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        MRLIBRA += points
+                    if x == 6:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>MiquelVZLA</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        MIQUEL += points
+                    if x == 7:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Travisaurus</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        TRAVISAURUS += points
+                    if x == 8:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>evil</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        EVIL += points
+                    if x == 9:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>melonz</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        MELONZ += points
+                    if x == 10:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Fenix</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        FENIX += points
+                    if x == 11:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>FizzEL</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        FIZZEL += points
+                    if x == 12:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>TheMagicWaterBottle</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        CARTER += points
+                    if x == 13:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Christeamer</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        CHRISTEAMER += points
+                    if x == 14:
+                        curr_page.write('    <tr>\n')
+                        curr_page.write('      <td>Foody</td>\n')
+                        curr_page.write('      <td>'+str(rec_content[x])+'%</td>\n')
+                        curr_page.write('      <td><a href="(LINK)">Video (not added yet sry)</a></td>\n')
+                        curr_page.write('    </tr>\n')
+                        points = calc_points(i,prog)
+                        FOODY += points
+                        
             curr_page.write('<!-- End Template :33333 -->\n')
             curr_page.write('  </table>\n')
             curr_page.write('  <br>\n')
@@ -276,6 +434,7 @@ def parse_csv(path):
 
         curr_page.close()
 
+# append the footer to the index.html file
     with open("index.html", "a") as index:
         index.write('<!-- the page footer but this thing is so fucked up ngl idk why -->\n')
         index.write('<div class="footer" style="text-align: center; padding: 10px;">\n')
@@ -288,8 +447,39 @@ def parse_csv(path):
         index.write('</html>\n')
         index.close()
 
+# create statsviewr page (unfinished!! :OOOOOOOOOOO w,.d,w.a,,s,ad;sladaowd,kopk12kopd1lq;dkd;lwkaqdopska'l)
+    with open("statsviewer.html", "w") as stats:
+        stats.write('Christeamer: '+str(CHRISTEAMER)+"<br>\n")
+        stats.write('evil: '+str(EVIL)+"<br>\n")
+        stats.write('Fenix: '+str(FENIX)+"<br>\n")
+        stats.write('FizzEl: '+str(FIZZEL)+"<br>\n")
+        stats.write('Foody: '+str(FOODY)+"<br>\n")
+        stats.write('Jeremy Clarkson: '+str(JEREMY_CLARKSON)+"<br>\n")
+        stats.write('melonz: '+str(MELONZ)+"<br>\n")
+        stats.write('Miquel: '+str(MIQUEL)+"<br>\n")
+        stats.write('MrLibra: '+str(MRLIBRA)+"<br>\n")
+        stats.write('TheMagicWaterBottle: '+str(CARTER)+"<br>\n")
+        stats.write('Travisaurus: '+str(TRAVISAURUS)+"<br>\n")
+        stats.write('Tristeamer: '+str(TRISTEAMER)+"<br>\n")
+        stats.write('Wahffle: '+str(WAHFFLE)+"<br>\n")
+        stats.write('Willo: '+str(WILLO)+"<br>\n")
+        stats.write('<a href="https://tristeamer.github.io/sgdl/index.html">Return to main page.</a>\n')
+        stats.write('Would you believe me if I told you that this page is unfinished? idk what to really put here honestly :v<br>\n')
+
+    stats.close()
+
 def is_even(num):
     if num % 2 == 0:
         return True
     else:
         return False
+    
+def calc_points(pos, prog):
+    points = 0
+    if prog == 100:
+        points = (200-(pos-1))
+    elif pos <=75:
+        if prog >= 50:
+            points = ((200-(pos-1))/10)
+    return points
+

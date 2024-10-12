@@ -4,6 +4,7 @@
 import libs.functions
 
 def main():
-    path = input("drop .csv file here: ").replace('"',"")
-    libs.functions.parse_csv(path)
+    lvlpath = input("drop [LEVEL!!!!!].csv file here: ").replace('"',"")
+    recpath = input("drop [RECORDS!!!].csv file here: ").replace('"',"")
+    libs.functions.parse_csv(lvlpath, recpath)
 main()
